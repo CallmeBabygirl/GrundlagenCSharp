@@ -21,5 +21,14 @@ Console.WriteLine(Alter);
 
 //Aufgabe 3
 
-//
-//test
+Console.WriteLine("Bitte gib dein Vorname ein");
+string Namee = Console.ReadLine();
+
+Console.WriteLine("Bitte trage dein Alter ein");
+string Alterr = Console.ReadLine();
+
+Console.WriteLine("Bitte gib deine Klasse ein");
+string Klasse = Console.ReadLine();
+
+Console.WriteLine($"{Namee} ist {Alterr} Jahre alt und besucht die {Klasse} des Georg-Simon-Ohm Berufkollegs.");
+
