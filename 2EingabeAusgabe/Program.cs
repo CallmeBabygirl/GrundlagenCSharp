@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
 //Aufgabe 1
 Console.WriteLine("  .-. \n (o o) \n | O | \n |   | \n '~~~'");
 
@@ -22,13 +19,13 @@ Console.WriteLine(Alter);
 //Aufgabe 3
 
 Console.WriteLine("Bitte gib dein Vorname ein");
-string Namee = Console.ReadLine();
+string Namee = Console.ReadLine("");
 
 Console.WriteLine("Bitte trage dein Alter ein");
-string Alterr = Console.ReadLine();
+string Alterr = Console.ReadLine("");
 
 Console.WriteLine("Bitte gib deine Klasse ein");
-string Klasse = Console.ReadLine();
+string Klasse = Console.ReadLine("");
 
 Console.WriteLine($"{Namee} ist {Alterr} Jahre alt und besucht die {Klasse} des Georg-Simon-Ohm Berufkollegs.");
 
